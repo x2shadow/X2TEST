@@ -9,7 +9,7 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+       display = new Display();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class Test : MonoBehaviour
 
     }
 
-    void Hello()
+    public void Hello()
     {
         display.showMessage();
     }
