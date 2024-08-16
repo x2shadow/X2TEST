@@ -10,6 +10,8 @@ public class Test : MonoBehaviour
     void Start()
     {
        display = new Display();
+
+       InvokeRepeating("Hello", 3f, 3f);
     }
 
     // Update is called once per frame
